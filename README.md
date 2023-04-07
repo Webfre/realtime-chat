@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Онлайн чат с использованием Node.JS, Express.JS. Передача данных и обработка событий с использованием библиотеки Socket.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Image alt](https://github.com/Webfre/todo-crud/blob/main/src/img/2023-03-25_18-39-25.png)
 
-## Available Scripts
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=webfre&label=Profile%20views&color=0e75b6&style=flat" alt="webfre" /> </p>
 
-In the project directory, you can run:
+Frontend: React.JS, Socket.io-client;
+Backend: Node.JS, Express.JS, Socket.IO.
 
-### `npm start`
+## Предварительный просмотр
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href="https://webfre.github.io/realtime-chat/" target="_blank">Перейти 👁</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Технологии
 
-### `npm test`
+Использовались библиотеки с открытым исходным кодом для правильной работы приложния:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Frontend:
 
-### `npm run build`
+- [react](https://reactjs.org/) - это библиотека JavaScript с открытым исходным кодом для создания внешних пользовательских интерфейсов.
+- [react-icons](https://react-icons.github.io/react-icons/) - это небольшая библиотека, которая помогает добавлять иконки (из разных библиотек иконок) в ваши приложения React.
+- [emoji-picker-react](https://www.npmjs.com/package/emoji-picker-react) - компонент для выбора эмодзи для приложений React.
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) - пакет содержит привязки для использования маршрутизатора React в веб-приложениях.
+- [socket.io-client](https://www.npmjs.com/package/socket.io-client) - JavaScript-библиотека для веб-приложений и обмена данными в реальном времени. Состоит из двух частей: клиентской, которая запускается в браузере и серверной для node.js. Оба компонента имеют похожее API. Подобно node.js, Socket.IO событийно-ориентированная.
+- [sass](https://sass-lang.com/) - это скриптовый метаязык (т.е. язык, описывающий другой язык), разработанный для упрощения файлов CSS.
+- [axios](https://axios-http.com/docs/intro) - это широко известная JavaScript-библиотека. Она представляет собой HTTP-клиент, основанный на промисах и предназначенный для браузеров и для Node.js.
+- [ESlint](https://github.com/eslint/eslint) - это инструмент, который помогает вам анализировать код JavaScript, находить синтаксические ошибки и автоматически исправлять их, писать аккуратный код в едином стиле в соответствии с определенными правилами.
+- [Prettier](https://prettier.io/) - это инструмент форматирования кода, предназначенный для использования жестко закодированных правил при разработке программ. Он автоматически форматирует код.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Backend:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [cors](https://www.npmjs.com/package/cors) - это node.js пакет для предоставления промежуточного программного обеспечения Connect/ Express, которое может использоваться для включения CORS с различными опциями.
+- [express](https://www.npmjs.com/package/express) - быстрый, непредвзятый, минималистичный веб-фреймворк для Node.js.
+- [nodemon](https://www.npmjs.com/package/nodemon) - это инструмент, который помогает разрабатывать Node.js приложения на основе узла путем автоматического перезапуска приложения узла при обнаружении изменений файлов в каталоге.
+- [socket.io](https://www.npmjs.com/package/socket.io) - двунаправленная связь с низкой задержкой для каждой платформы.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Установка
 
-### `npm run eject`
+Приложение требует [Node.js](https://nodejs.org/) v16+ для запуска.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Если вы не знаете свою версию, вы можете проверить ее с помощью команды в терминале node -v.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Для того, чтобы установить проект локально, Вам потребуется:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+git clone https://github.com/Webfre/realtime-chat.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Запуск проекта:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+cd app
+npm start
+```
