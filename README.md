@@ -1,4 +1,4 @@
-# Онлайн чат
+# Онлайн чат на Socket.io
 
 ![Image alt](https://github.com/Webfre/realtime-chat/blob/main/src/images/photo_2023-04-07_10-17-10.jpg)
 
