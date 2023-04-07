@@ -1,6 +1,6 @@
-# Онлайн чат с использованием Node.JS, Express.JS. Передача данных и обработка событий с использованием библиотеки Socket.io
+# Онлайн чат
 
-![Image alt](https://github.com/Webfre/todo-crud/blob/main/src/img/2023-03-25_18-39-25.png)
+![Image alt](https://github.com/Webfre/realtime-chat/blob/main/src/images/photo_2023-04-07_10-17-10.jpg)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=webfre&label=Profile%20views&color=0e75b6&style=flat" alt="webfre" /> </p>
 
@@ -15,7 +15,7 @@ Backend: Node.JS, Express.JS, Socket.IO.
 
 Использовались библиотеки с открытым исходным кодом для правильной работы приложния:
 
-- Frontend:
+## Frontend:
 
 - [react](https://reactjs.org/) - это библиотека JavaScript с открытым исходным кодом для создания внешних пользовательских интерфейсов.
 - [react-icons](https://react-icons.github.io/react-icons/) - это небольшая библиотека, которая помогает добавлять иконки (из разных библиотек иконок) в ваши приложения React.
@@ -27,7 +27,7 @@ Backend: Node.JS, Express.JS, Socket.IO.
 - [ESlint](https://github.com/eslint/eslint) - это инструмент, который помогает вам анализировать код JavaScript, находить синтаксические ошибки и автоматически исправлять их, писать аккуратный код в едином стиле в соответствии с определенными правилами.
 - [Prettier](https://prettier.io/) - это инструмент форматирования кода, предназначенный для использования жестко закодированных правил при разработке программ. Он автоматически форматирует код.
 
-- Backend:
+## Backend:
 
 - [cors](https://www.npmjs.com/package/cors) - это node.js пакет для предоставления промежуточного программного обеспечения Connect/ Express, которое может использоваться для включения CORS с различными опциями.
 - [express](https://www.npmjs.com/package/express) - быстрый, непредвзятый, минималистичный веб-фреймворк для Node.js.
