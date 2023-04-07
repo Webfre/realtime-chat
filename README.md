@@ -50,5 +50,6 @@ git clone https://github.com/Webfre/realtime-chat.git
 
 ```sh
 cd app
+npm install
 npm start
 ```
